@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qhb-7m-Dra" userLabel="TabObj">
-                                <rect key="frame" x="0.0" y="60" width="320" height="498"/>
+                                <rect key="frame" x="0.0" y="30" width="320" height="528"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="60" id="6FL-h2-19O" customClass="CustomTableViewCell">
@@ -57,7 +57,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qhb-7m-Dra" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F2K-D2-OKd"/>
-                            <constraint firstItem="qhb-7m-Dra" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Lym-u4-qWj"/>
+                            <constraint firstItem="qhb-7m-Dra" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Lym-u4-qWj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qhb-7m-Dra" secondAttribute="trailing" id="oPg-oU-F8M"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qhb-7m-Dra" secondAttribute="bottom" constant="10" id="pJN-PS-a9H"/>
                         </constraints>
