@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102B79C221E3C315003D56D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79C121E3C315003D56D9 /* AppDelegate.m */; };
+		102B79C521E3C315003D56D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79C421E3C315003D56D9 /* ViewController.m */; };
+		102B79C821E3C315003D56D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102B79C621E3C315003D56D9 /* Main.storyboard */; };
+		102B79CA21E3C316003D56D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102B79C921E3C316003D56D9 /* Assets.xcassets */; };
+		102B79CD21E3C316003D56D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102B79CB21E3C316003D56D9 /* LaunchScreen.storyboard */; };
+		102B79D021E3C316003D56D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79CF21E3C316003D56D9 /* main.m */; };
+		102B79DA21E3C316003D56D9 /* virtusa_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79D921E3C316003D56D9 /* virtusa_appTests.m */; };
+		102B79E521E3C316003D56D9 /* virtusa_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79E421E3C316003D56D9 /* virtusa_appUITests.m */; };
+		102B79F721E3C544003D56D9 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B79F521E3C544003D56D9 /* CustomTableViewCell.m */; };
+		10A9BD6821E3D5F20041BAA4 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BD6721E3D5F10041BAA4 /* 1.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		102B79D621E3C316003D56D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 102B79B521E3C315003D56D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102B79BC21E3C315003D56D9;
+			remoteInfo = virtusa_app;
+		};
+		102B79E121E3C316003D56D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 102B79B521E3C315003D56D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102B79BC21E3C315003D56D9;
+			remoteInfo = virtusa_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102B79BD21E3C315003D56D9 /* virtusa_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtusa_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102B79C021E3C315003D56D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		102B79C121E3C315003D56D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		102B79C321E3C315003D56D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		102B79C421E3C315003D56D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		102B79C721E3C315003D56D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		102B79C921E3C316003D56D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		102B79CC21E3C316003D56D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		102B79CE21E3C316003D56D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B79CF21E3C316003D56D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		102B79D521E3C316003D56D9 /* virtusa_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virtusa_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		102B79D921E3C316003D56D9 /* virtusa_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = virtusa_appTests.m; sourceTree = "<group>"; };
+		102B79DB21E3C316003D56D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B79E021E3C316003D56D9 /* virtusa_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virtusa_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		102B79E421E3C316003D56D9 /* virtusa_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = virtusa_appUITests.m; sourceTree = "<group>"; };
+		102B79E621E3C316003D56D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B79F521E3C544003D56D9 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		102B79F621E3C544003D56D9 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		10A9BD6721E3D5F10041BAA4 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102B79BA21E3C315003D56D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79D221E3C316003D56D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79DD21E3C316003D56D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102B79B421E3C315003D56D9 = {
+			isa = PBXGroup;
+			children = (
+				102B79BF21E3C315003D56D9 /* virtusa_app */,
+				102B79D821E3C316003D56D9 /* virtusa_appTests */,
+				102B79E321E3C316003D56D9 /* virtusa_appUITests */,
+				102B79BE21E3C315003D56D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		102B79BE21E3C315003D56D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102B79BD21E3C315003D56D9 /* virtusa_app.app */,
+				102B79D521E3C316003D56D9 /* virtusa_appTests.xctest */,
+				102B79E021E3C316003D56D9 /* virtusa_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		102B79BF21E3C315003D56D9 /* virtusa_app */ = {
+			isa = PBXGroup;
+			children = (
+				102B79C021E3C315003D56D9 /* AppDelegate.h */,
+				102B79C121E3C315003D56D9 /* AppDelegate.m */,
+				102B79C321E3C315003D56D9 /* ViewController.h */,
+				102B79C421E3C315003D56D9 /* ViewController.m */,
+				102B79F621E3C544003D56D9 /* CustomTableViewCell.h */,
+				102B79F521E3C544003D56D9 /* CustomTableViewCell.m */,
+				102B79C621E3C315003D56D9 /* Main.storyboard */,
+				10A9BD6721E3D5F10041BAA4 /* 1.jpeg */,
+				102B79C921E3C316003D56D9 /* Assets.xcassets */,
+				102B79CB21E3C316003D56D9 /* LaunchScreen.storyboard */,
+				102B79CE21E3C316003D56D9 /* Info.plist */,
+				102B79CF21E3C316003D56D9 /* main.m */,
+			);
+			path = virtusa_app;
+			sourceTree = "<group>";
+		};
+		102B79D821E3C316003D56D9 /* virtusa_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				102B79D921E3C316003D56D9 /* virtusa_appTests.m */,
+				102B79DB21E3C316003D56D9 /* Info.plist */,
+			);
+			path = virtusa_appTests;
+			sourceTree = "<group>";
+		};
+		102B79E321E3C316003D56D9 /* virtusa_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				102B79E421E3C316003D56D9 /* virtusa_appUITests.m */,
+				102B79E621E3C316003D56D9 /* Info.plist */,
+			);
+			path = virtusa_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102B79BC21E3C315003D56D9 /* virtusa_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102B79E921E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_app" */;
+			buildPhases = (
+				102B79B921E3C315003D56D9 /* Sources */,
+				102B79BA21E3C315003D56D9 /* Frameworks */,
+				102B79BB21E3C315003D56D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = virtusa_app;
+			productName = virtusa_app;
+			productReference = 102B79BD21E3C315003D56D9 /* virtusa_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		102B79D421E3C316003D56D9 /* virtusa_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102B79EC21E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_appTests" */;
+			buildPhases = (
+				102B79D121E3C316003D56D9 /* Sources */,
+				102B79D221E3C316003D56D9 /* Frameworks */,
+				102B79D321E3C316003D56D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102B79D721E3C316003D56D9 /* PBXTargetDependency */,
+			);
+			name = virtusa_appTests;
+			productName = virtusa_appTests;
+			productReference = 102B79D521E3C316003D56D9 /* virtusa_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		102B79DF21E3C316003D56D9 /* virtusa_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102B79EF21E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_appUITests" */;
+			buildPhases = (
+				102B79DC21E3C316003D56D9 /* Sources */,
+				102B79DD21E3C316003D56D9 /* Frameworks */,
+				102B79DE21E3C316003D56D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102B79E221E3C316003D56D9 /* PBXTargetDependency */,
+			);
+			name = virtusa_appUITests;
+			productName = virtusa_appUITests;
+			productReference = 102B79E021E3C316003D56D9 /* virtusa_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102B79B521E3C315003D56D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IMI;
+				TargetAttributes = {
+					102B79BC21E3C315003D56D9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					102B79D421E3C316003D56D9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 102B79BC21E3C315003D56D9;
+					};
+					102B79DF21E3C316003D56D9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 102B79BC21E3C315003D56D9;
+					};
+				};
+			};
+			buildConfigurationList = 102B79B821E3C315003D56D9 /* Build configuration list for PBXProject "virtusa_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102B79B421E3C315003D56D9;
+			productRefGroup = 102B79BE21E3C315003D56D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102B79BC21E3C315003D56D9 /* virtusa_app */,
+				102B79D421E3C316003D56D9 /* virtusa_appTests */,
+				102B79DF21E3C316003D56D9 /* virtusa_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102B79BB21E3C315003D56D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B79CD21E3C316003D56D9 /* LaunchScreen.storyboard in Resources */,
+				102B79CA21E3C316003D56D9 /* Assets.xcassets in Resources */,
+				102B79C821E3C315003D56D9 /* Main.storyboard in Resources */,
+				10A9BD6821E3D5F20041BAA4 /* 1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79D321E3C316003D56D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79DE21E3C316003D56D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102B79B921E3C315003D56D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B79C521E3C315003D56D9 /* ViewController.m in Sources */,
+				102B79D021E3C316003D56D9 /* main.m in Sources */,
+				102B79F721E3C544003D56D9 /* CustomTableViewCell.m in Sources */,
+				102B79C221E3C315003D56D9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79D121E3C316003D56D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B79DA21E3C316003D56D9 /* virtusa_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102B79DC21E3C316003D56D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B79E521E3C316003D56D9 /* virtusa_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		102B79D721E3C316003D56D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102B79BC21E3C315003D56D9 /* virtusa_app */;
+			targetProxy = 102B79D621E3C316003D56D9 /* PBXContainerItemProxy */;
+		};
+		102B79E221E3C316003D56D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102B79BC21E3C315003D56D9 /* virtusa_app */;
+			targetProxy = 102B79E121E3C316003D56D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		102B79C621E3C315003D56D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102B79C721E3C315003D56D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		102B79CB21E3C316003D56D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102B79CC21E3C316003D56D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		102B79E721E3C316003D56D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		102B79E821E3C316003D56D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102B79EA21E3C316003D56D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = virtusa_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		102B79EB21E3C316003D56D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = virtusa_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		102B79ED21E3C316003D56D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = virtusa_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtusa_app.app/virtusa_app";
+			};
+			name = Debug;
+		};
+		102B79EE21E3C316003D56D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = virtusa_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtusa_app.app/virtusa_app";
+			};
+			name = Release;
+		};
+		102B79F021E3C316003D56D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = virtusa_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = virtusa_app;
+			};
+			name = Debug;
+		};
+		102B79F121E3C316003D56D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = virtusa_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..virtusa-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = virtusa_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102B79B821E3C315003D56D9 /* Build configuration list for PBXProject "virtusa_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102B79E721E3C316003D56D9 /* Debug */,
+				102B79E821E3C316003D56D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102B79E921E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102B79EA21E3C316003D56D9 /* Debug */,
+				102B79EB21E3C316003D56D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102B79EC21E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102B79ED21E3C316003D56D9 /* Debug */,
+				102B79EE21E3C316003D56D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102B79EF21E3C316003D56D9 /* Build configuration list for PBXNativeTarget "virtusa_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102B79F021E3C316003D56D9 /* Debug */,
+				102B79F121E3C316003D56D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 102B79B521E3C315003D56D9 /* Project object */;
+}
